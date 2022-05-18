@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="esp">
+
+<head>
+  <meta charset="utf-8">
+  <title>Encriptador de texto</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="cifrado.css">
+
+</head>
+
+<body>
+  <header class="encabezado">
+    <!--título del cifrado-->
+    <h1>Encriptador de texto ONE</h1>
+    <img id="logo" src="./media/alura.jpg" alt="logo de alura">
+
+  </header>
+  <!--colocamos un main para nuestros container-->
+  <main>
+    <section class="container">
+      <!--aquí colocamos un container para la enrtada de datos a cifrar-->
+      <div class="containerA">
+        <!-- aquí se introduce el texto que cifraremos y utilizaremos en js-->
+        <textarea type="text" class="entrada" placeholder="Introduzca el texto aquí..."></textarea> <!--usaremos este textarea para la entrada de datos en js-->
+        <h6 id="span"> Solo letras minúsculas y sin acento.</h6>
+
+        <!--container de botones-->
+        <div class="containerButton">
+          <button type="button" class="encriptar">Encriptar</button>
+          <button type="button" class="desencriptar">Desencriptar</button>
+        </div>
+      </div>
+      <!--colocoamos el segundo container para el cifrado-->
+      <div class="containerB">
+        <ul class="elementosA">
+          <li><img src="./img/Muñeco.png"></li>
+          <li>
+            <h6>Ningún mensaje fue encontrado</h6>
+          </li>
+          <li>
+            <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+          </li>
+        </ul>
+        <textarea type="text" class="salida"></textarea>
+        <button type="button" class="copiar">Copiar</button>
+      </div>
+
+    </section>
+
+  </main>
+  <footer class="pie">
+    <p>&copy Riveros Silvio A.</p>
+  </footer>
+</body>
+
+<script src="encriptar.js"></script>
+<script src="desencriptar.js"></script>
+
+</html>
+
+</html>
