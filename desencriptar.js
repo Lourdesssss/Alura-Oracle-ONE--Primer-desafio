@@ -1,15 +1,15 @@
-let entrada = document.querySelector(".entrada");
-let salida = document.querySelector(".salida");
-let elementos = document.querySelector(".elementosA");
+let entradas = document.querySelector(".entradas");
+let salidas = document.querySelector(".salidas");
+let elements = document.querySelector(".elementsA");
 
 let botonDesencriptar = document.querySelector(".desencriptar");
 
 
 botonDesencriptar.addEventListener("click",function(event){
 	event.preventDefault();
-	const textoDesencriptado = desencriptar(entrada.value);
-	salida.value = textoDesencriptado;
-	elementos.style.opacity = 0;
+	const textoDesencriptado = desencriptar(entradas.value);
+	salidas.value = textoDesencriptado;
+	elements.style.opacity = 0;
 
 });
 function desencriptar (cadenaTextoCifrado){
