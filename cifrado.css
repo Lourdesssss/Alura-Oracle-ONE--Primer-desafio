@@ -10,7 +10,6 @@ header{
     padding: 15px;
     border-radius: 5px;
     background: linear-gradient(35deg, #470d23, #38163b);
-    
 }
 h1{
     font-size: 3.4em;
@@ -18,25 +17,23 @@ h1{
     float: right;
     padding-top: 20px;
     padding-bottom: -20px;
-    /* padding-right: 8%; */
-    color: #752141;
+    color: #e9ecf89c;
     letter-spacing: 0.1em;
-    text-shadow: 2px 2px 3px #e9ecf813; 
-    font-family: 'Lucida Sans';
+    position: relative;
+    font-family:'Italiana';
     text-align: center;
 }
 #logo{
     width: 6%;
     margin-left: 1.4em;
-    border: 2px solid #873597ab;
+    border:0;
 }
 main{
-    margin: 10px 8px;
     padding: 15px;
     border-radius: 5px;
-    background: linear-gradient(35deg, #9b2b91, #873597ab);
-    font-family: monospace;
-    
+    background: #e9ecf813;
+    font-family: 'Open Sans';
+    border: 0;
 }
 .container{
     width: 100%;
@@ -85,7 +82,7 @@ main{
     padding: 15px 0;
     font-size: 12px;
     font-weight: lighter;
-    color:white;
+    color:#e9ecf89c;
     background: #e9ecf813;
     border:0;
     border-radius: 10px;
@@ -98,13 +95,15 @@ main{
     padding: 10px 12px 13px 12px;
     font-size: 12px;
     font-weight: lighter;
-    color: white;
+    color: #e9ecf89c;
     background: #e9ecf813;
     border:0;
     border-radius: 10px;
     margin-left: 2.8em;
 }
 .containerB{
+    padding: 20px 10px;
+    position: relative;
     display: inline-block;
     text-align: center;
     width: 35%;
@@ -121,14 +120,13 @@ main{
     font-size: 12px;
 }
 .salida{
-    margin-top: 30px;
+    margin-top: 10px;
     display: inline-block;
     text-align: center;
     width: 90%;
     height: 90%;
     vertical-align: top;
     margin-bottom: 3.5%;
-    padding: 30px 20px;
     box-sizing: border-box;
     border: 0;
     border-radius: 10px;
@@ -143,11 +141,10 @@ main{
     padding: 15px 0;
     font-size: 12px;
     font-weight: lighter;
-    color: white;
+    color: #e9ecf89c;
     background: #e9ecf813;
     border:0;
     border-radius: 10px;
-    
 }
 .elementosA {
     position: absolute;
@@ -156,12 +153,11 @@ main{
     margin-top: 5%;
     padding: 30px 20px;
     padding-left: 0;
-    color: white;
+    color: #e9ecf89c;
+    left: 4em;
 }
 .elementosA h6{
-    font-size: 12px;
-    font-weight: bold;
-     
+    font-size: 20px;     
     padding: 10px 5px;
 }
 footer{
@@ -173,19 +169,26 @@ footer{
 }
 
 @media screen and (max-width: 1080px) {
+    h1{
+        position: absolute;
+        left: 13%;
+        top: 0;
+    }
     .container {
         display: flex;
         width: 100%;
     }
-    .salida {
-        glyph-orientation-vertical: inherit;
-    }
+
     .containerButton{
+        position: absolute;
+        left: 25px;
         display: flex;
-        width: 100%;
+        width: 50%;
     }
     .copiar{
         padding: 10px 12px 13px 12px;
-        position: relative;
+        position: absolute;
+        top:92%;
+        right:29%;
     }
 }
