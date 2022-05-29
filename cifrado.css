@@ -80,33 +80,38 @@ main{
 .encriptar{
     width: 40%;
     padding: 15px 0;
-    font-size: 12px;
+    font-size: 15px;
     font-weight: lighter;
     color:#e9ecf89c;
     background: #e9ecf813;
     border:0;
     border-radius: 10px;
-    margin-left: 4.1em;
+    margin-left: 3.1em;
 }
-
+.encriptar:hover{
+    background: #38163b;
+}
 
 .desencriptar{
     width: 40%;
-    padding: 10px 12px 13px 12px;
-    font-size: 12px;
+    padding: 15px 0;
+    font-size: 15px;
     font-weight: lighter;
     color: #e9ecf89c;
     background: #e9ecf813;
     border:0;
     border-radius: 10px;
-    margin-left: 2.8em;
+    margin-left: 2.2em;
+}
+.desencriptar:hover{
+    background: #38163b;
 }
 .containerB{
     padding: 20px 10px;
     position: relative;
     display: inline-block;
     text-align: center;
-    width: 35%;
+    width: 40%;
     height: 100%;
     vertical-align: top;
     box-sizing: border-box;
@@ -123,8 +128,8 @@ main{
     margin-top: 10px;
     display: inline-block;
     text-align: center;
-    width: 90%;
-    height: 90%;
+    width: 95%;
+    height: 83%;
     vertical-align: top;
     margin-bottom: 3.5%;
     box-sizing: border-box;
@@ -139,17 +144,17 @@ main{
 .copiar{
     width: 40%;
     padding: 15px 0;
-    font-size: 12px;
+    font-size: 15px;
     font-weight: lighter;
     color: #e9ecf89c;
     background: #e9ecf813;
     border:0;
     border-radius: 10px;
+    margin-top: 20px;
 }
 .elementosA {
     position: absolute;
-    z-index: 2;
-    text-align: center;
+    z-index: 1;
     margin-top: 5%;
     padding: 30px 20px;
     padding-left: 0;
@@ -181,14 +186,14 @@ footer{
 
     .containerButton{
         position: absolute;
-        left: 25px;
+        left: 50px;
         display: flex;
         width: 50%;
     }
     .copiar{
-        padding: 10px 12px 13px 12px;
+        
         position: absolute;
-        top:92%;
+        top: 88.5%;
         right:29%;
     }
 }
