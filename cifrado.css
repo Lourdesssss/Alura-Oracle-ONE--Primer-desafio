@@ -152,6 +152,9 @@ main{
     border-radius: 10px;
     margin-top: 20px;
 }
+.copiar:hover{
+    background: #38163b; 
+}
 .elementosA {
     position: absolute;
     z-index: 1;
